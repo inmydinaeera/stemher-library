@@ -4,6 +4,7 @@ import { Search, Sparkles, X } from "lucide-react";
 import { RESOURCES } from "@/data/resources";
 import { ResourceCard } from "@/components/ResourceCard";
 import { FilterBar, type Filters } from "@/components/FilterBar";
+import { SuggestResource } from "@/components/SuggestResource";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -151,6 +152,10 @@ function Index() {
           </div>
         )}
       </main>
+
+      <SuggestResource />
+
+
 
       <footer className="border-t border-border py-8">
         <p className="mx-auto max-w-6xl px-5 text-center text-sm text-muted-foreground">
