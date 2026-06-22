@@ -4,6 +4,7 @@ import { Search, Sparkles, X } from "lucide-react";
 import { RESOURCES } from "@/data/resources";
 import { ResourceCard } from "@/components/ResourceCard";
 import { FilterBar, type Filters } from "@/components/FilterBar";
+import { SuggestResource } from "@/components/SuggestResource";
 
 export const Route = createFileRoute("/")({
   head: () => ({
