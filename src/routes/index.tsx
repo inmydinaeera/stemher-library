@@ -153,6 +153,10 @@ function Index() {
         )}
       </main>
 
+      <SuggestResource />
+
+
+
       <footer className="border-t border-border py-8">
         <p className="mx-auto max-w-6xl px-5 text-center text-sm text-muted-foreground">
           StemHer Library · Curated STEM resources for girls aged 8–18
